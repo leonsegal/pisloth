@@ -21,7 +21,7 @@ def happy():
         music.sound_effect_threading('./sounds/happy2.wav')
     except Exception as e:
         print(e)
-    for i in range(3):
+    # for i in range(3):
         # sloth.do_action('hook', 1, 90)
         # sloth.do_action('stand', 1, 90)
 
