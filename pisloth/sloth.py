@@ -139,6 +139,14 @@ class Sloth(Robot):
             [40, -30, 40, -70],
             [40, -30, 40, -30],
             ],
+        "shake left": [
+            [-40, 70, -40, 30],
+            [-40, 30, -40, 30],
+            ],
+        "shake right": [
+            [40, -30, 40, -70],
+            [40, -30, 40, -30],
+            ],
     }
 
     def do_action(self,motion_name, step=1, speed=None, bpm=None):
